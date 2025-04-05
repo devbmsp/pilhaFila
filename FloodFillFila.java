@@ -8,8 +8,8 @@ public class FloodFillFila {
     private Fila fila;
     private String outputFolder = "saidas/Fila";
     private int pixelCounter = 0;
-    private int snapshotInterval = 500; // Salva snapshot a cada 100 pixels preenchidos
-    private int boundaryColor = 0xFF000000; // Cor de contorno: preto
+    private int snapshotInterval = 1000; 
+    private int boundaryColor = 0xFF000000;
 
     public FloodFillFila(BufferedImage image) {
         this.image = image;
